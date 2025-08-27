@@ -1,0 +1,36 @@
+{
+  "title": "Sample Video Storyboard",
+  "description": "A demonstration of the video automation system with Safe Mode support",
+  "scenes": [
+    {
+      "type": "topic_video",
+      "topic": "space exploration",
+      "duration": 15,
+      "narration": [
+        "Space exploration has captured human imagination for decades.",
+        "From the first moon landing to modern Mars missions.",
+        "We continue to push the boundaries of what's possible."
+      ]
+    },
+    {
+      "type": "topic_video",
+      "topic": "ocean life",
+      "duration": 12,
+      "narration": [
+        "The ocean is home to incredible biodiversity.",
+        "From tiny plankton to massive whales.",
+        "These creatures have adapted to life underwater."
+      ]
+    },
+    {
+      "type": "host_sd",
+      "duration": 8,
+      "visual_prompt": "(medium shot:1.1) host explaining, professional appearance; bright studio; educational style:1.2",
+      "negative_prompt": "blurry, distorted, watermark, text",
+      "narration": [
+        "Thank you for watching our exploration of amazing topics.",
+        "Remember to stay curious and keep learning."
+      ]
+    }
+  ]
+}
